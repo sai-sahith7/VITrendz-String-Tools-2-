@@ -1,0 +1,63 @@
+body{
+  background-image: url("back-ground.jpg");
+  background-size: cover;
+}
+.header{
+  padding-top: 5px;
+  padding-bottom:5px;
+  cursor: default;
+  opacity: 0.9;
+  text-align: center;
+  font-family: "Cooper Black", serif;
+  color: #ff6f61;
+  background: rgb(60,100,80,0.3);
+  padding: 30px;
+}
+.myDiv:not(:empty){
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+  display: block;
+}
+h1:hover{
+  opacity: 1.0;
+  text-shadow: 1px 1px 1px #ff6f61;
+}
+h1{
+  cursor: default;
+  opacity: 0.9;
+  text-align: center;
+  color: #ff6f61;
+}
+h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: orange;
+  font-family:'Courier New', monospace;
+}
+h3:hover{
+  cursor: default;
+}
+p{
+  color: white;
+}
+form{
+  text-align: center;
+}
+.panel{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #eeeeee 3px;
+  left: 50%;
+  width: 50%;
+  height: 4%;
+  text-align: center;
+  color: #fc9803;
+}
+
+.panel:focus{
+  background: white;
+}
